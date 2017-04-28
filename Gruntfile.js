@@ -74,7 +74,8 @@ module.exports = function(grunt) {
       task: {
         options: {
           cwd: './',
-          message: 'Automatic Commit'
+          message: 'Automatic Commit',
+          force: true
         }
       },
       files: {
