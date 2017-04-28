@@ -77,7 +77,8 @@ module.exports = function(grunt) {
         }
       },
       files: {
-        src: ['.']
+        src: ['.'],
+        cwd: './'
       }
     },
     gitadd: {
